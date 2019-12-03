@@ -1,0 +1,69 @@
+.body{
+  border: 1px solid #c0c2bf;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 0 2em 0.1em #41463c;
+  border-radius: 10px;
+  background-color: #e8efe8;
+}
+
+.seal{
+  height: 45px;
+  width: 55px;
+  position: absolute;
+  z-index: 0.9;
+  left: 41%;
+  top: 3.5%
+}
+.headerWorld{
+  display: inline-block;
+  letter-spacing: 0.2em;
+  font-weight: 550;
+  color: red;
+}
+.header{
+  text-align: center;
+  margin-bottom: 10%;
+}
+.listName{
+  display: inline-block;
+  width: 31%;
+  font-size: 0.8rem;
+  height: 22px;
+}
+.listItem{
+  margin-bottom: 3%;
+}
+.pbline{
+  border-top: 2px solid #c0c2bf;
+  margin-top: -15px;
+  margin-bottom: 5%;
+}
+.weui-input{
+  display: inline-block;
+  width: 63%;
+  height: 22px;
+  margin-left: 10px;
+  vertical-align: middle;
+  border-bottom: 1px solid #c0c2bf;
+  font-size: 0.8rem;
+}
+.subButton{
+  margin-top: 5%;
+  width: 100%;
+  height: 45px;
+  background-color: #e8efe8;
+}
+.submit1{
+  border: 1px solid #41463c;
+  background-color: green;
+  color: #fff;
+  display: inline-block;
+  font-weight: 300;
+}
+.submit2{
+  border: 1px solid #41463c;
+  background-color: rgb(142, 145, 142);
+  display: inline-block;
+  font-weight: 300;
+}

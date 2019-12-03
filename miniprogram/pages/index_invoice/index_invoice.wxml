@@ -1,0 +1,100 @@
+<!--pages/Testsql/Testsql.wxml-->
+<form class="body" bindsubmit="formSubmit">
+
+<view class="header">
+<image class="seal" src="cloud://lbc-r1n9w.6c62-lbc-r1n9w-1300702763/fapiao/跟单结果印章_wps图片.png"></image>
+<text class="headerWorld">增值税电子普通发票</text>
+</view>
+
+  <view class="pbline"></view>
+<!-- -------------------------------------------------------------------------------------------------------- -->
+
+
+<view class="listItem">
+<text class="listName">发 票 类 型</text>
+ <textarea name="input-bill_code1"  class="weui-input"  value='{{bill_code1}}'  type="number" placeholder="增值税电子普通发票" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+<view class="listItem">
+<text class="listName">发票代码</text>
+ <textarea name="input-bill_code2"  class="weui-input"  value='{{bill_code2}}'  type="number" placeholder="请输入发票代码" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+<view class="listItem">
+<text class="listName">发票号码</text>
+ <textarea name="input-bill_code3"  class="weui-input"  value='{{bill_code3}}'  type="number" placeholder="请输入发票号码" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+<view class="listItem">
+<text class="listName">开票日期</text>
+ <textarea name="input-bill_code4"  class="weui-input"  value='{{bill_code4}}'  type="number" placeholder="2019-11-28" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+
+<view class="listItem">
+<text class="listName">校验码</text>
+ <textarea name="input-bill_code5"  class="weui-input"  value='{{bill_code5}}'  type="number" placeholder="请输入发票校验码" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+
+
+<view class="listItem">
+<text class="listName">发票金额</text>
+ <textarea name="input-bill_code6"  class="weui-input"  value='{{bill_code6}}'  type="number" placeholder="请输入发票金额" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+
+
+<view class="listItem">
+<text class="listName">税率 (%)</text>
+ <textarea name="input-bill_code7"  class="weui-input"  value='{{bill_code7}}'  type="number" placeholder="请输入税率" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+
+
+<view class="listItem">
+<text class="listName">税额</text>
+ <textarea name="input-bill_code8"  class="weui-input"  value='{{bill_code8}}'  type="number" placeholder="请输入税额" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+
+
+<view class="listItem">
+<text class="listName">价税合计</text>
+ <textarea name="input-bill_code9"  class="weui-input"  value='{{bill_code9}}'  type="number" placeholder="请输入价税合计" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+<view class="pbline" style="margin-top:10px"></view>
+
+<view class="listItem">
+<text class="listName">报销人</text>
+ <textarea name="input-bill_code10"  class="weui-input"  value='{{bill_code10}}'  type="number" placeholder="请输入报销人" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+<view class="listItem">
+<text class="listName">报销部门</text>
+ <textarea name="input-bill_code11"  class="weui-input"  value='{{bill_code11}}'  type="number" placeholder="请输入报销部门" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+<view class="listItem">
+<text class="listName">凭证号</text>
+ <textarea name="input-bill_code12"  class="weui-input"  value='{{bill_code12}}'  type="number" placeholder="请输入凭证号" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+<view class="listItem">
+<text class="listName">销方名称</text>
+ <textarea name="input-bill_code13"  class="weui-input"  value='{{bill_code13}}'  type="number" placeholder="请输入销方名称" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+<view class="listItem">
+<text class="listName">备注</text>
+ <textarea name="input-bill_code14"  class="weui-input"  value='{{bill_code14}}'  type="number" placeholder="请输入备注" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+<view class="subButton">
+<button class="submit1" formType='submit' open-type="getUserInfo" style="width:60%;height:20px;margin-left:3%;margin-top:2px"  bindblur='getTextAreaContent' bindtap="showTestNumber" >提交</button>
+<button class="submit2" type="submit" style="width:30%;height:20px;margin-left:3%;margin-top:2px" bindtap="back">返回</button>
+</view>
+
+</form>
+

@@ -1,0 +1,210 @@
+/* pages/mainpage/mainpage.wxss */
+
+.xiaoxun{
+  width: 100%;
+  background-color: #bd1c07;
+}
+.xiaoxun>image{
+  width: 100%;
+  height: 60%;
+}
+/* .xiaohui{
+  width: 12%;
+  height: 7.5%;
+  position: absolute;
+}
+.xiaohui>image{
+  width: 100%;
+  height: 40px;
+} */
+
+
+
+
+/* 
+image{
+  margin: 0;
+  padding: 0;
+} */
+.body{
+  background-color: #b9200c;
+  height: 100%
+}
+.header{
+  width: 90%;
+  height: 12.6%;
+  margin: 0 auto;
+  border: 1px solid rgba(243, 240, 240, 0.3);
+  border-radius: 10px;
+  background-color: #f8f6f6;
+  box-shadow: 0em 0em 0.5em rgba(43, 42, 42, 0.3);
+  padding: 10px;
+}
+.button1{
+  display: inline-block;
+
+  font-weight: 1em;
+  padding: 0px;
+  margin-top: 10px;
+  /* vertical-align: middle; */
+}
+.button1:active{
+  background-color: rgba(248, 244, 244, 0);
+}
+.button2{
+  display: inline-block;
+  font-weight: 1em;
+  padding: 0px;margin-top: 10px;
+  /* vertical-align: middle; */
+  /* margin-left: 40px; */
+}
+.button2:active{
+  background-color: rgba(248, 244, 244, 0);
+}
+.buttonImg1{
+  position: absolute;
+  top: 70px;
+  left: 7%;
+  display: inline-block;
+}
+.buttonImg2{
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  display: inline-block;
+}
+.newsFlash{
+  width: 95%;
+  margin-top: 1.4%;
+  height: 25px;
+  /* border: 1px solid black; */
+  box-shadow: 0em 0em 0.5em rgba(43, 42, 42, 0.3);
+  margin: 1.4% auto;
+  padding: 2px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.horn{
+  height: 100%;
+  width: 30px;
+  border-right: 1px solid rgb(75, 74, 74,0.9);
+  display: inline-block
+}
+.world{
+  width: 200px;
+  /* background-color: green; */
+  display: inline-block;
+  vertical-align: top;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+  animation-name: worldMove;
+  color: rgb(97, 96, 96)
+}
+@keyframes worldMove{
+  from{
+    transform: translateY(0px);
+  }
+  to{
+    transform: translateY(-70px);
+  }
+}
+.worldBlock{
+  width: 200px;
+  position: relative;
+  left: 40px;
+  top: -20px
+}
+.functionButton:nth-of-type(n+1){
+  width: 90%;
+  height: 50px;
+  background-color: #b9200c;
+  border-radius: 7px;
+  margin-top: 10px;
+  box-shadow: 0em 0em 0.5em rgba(43, 42, 42, 0.3);
+}
+
+.functionButton:nth-of-type(2n/2){
+  width: 90%;
+  height: 50px;
+  background-color: #cc1e07;
+  border-radius: 7px;
+  margin-top: 10px;
+  box-shadow: 0em 0em 0.5em rgba(43, 42, 42, 0.3);
+}
+
+.functionButton:active{
+  background-color: rgba(205,38,38,0.9);
+}
+
+.fbiBlock1{
+  position: absolute;
+  z-index: 1;
+}
+.fbiBlock1>image{
+  margin-left: 90%;
+  margin-top: 50%
+}
+
+.fbiBlock2{
+  position: absolute;
+  z-index: 1;
+}
+.fbiBlock2>image{
+  margin-left: 90%;
+  margin-top: 50%
+}
+
+.fbiBlock3{
+  position: absolute;
+  z-index: 1;
+}
+.fbiBlock3>image{
+  margin-left: 90%;
+  margin-top: 50%
+}
+
+.fbiBlock4{
+  position: absolute;
+  z-index: 1;
+}
+.fbiBlock4>image{
+  margin-left: 90%;
+  margin-top: 50%
+}
+
+.fbiBlock5{
+  position: absolute;
+  z-index: 1;
+}
+.fbiBlock5>image{
+  margin-left: 60%;
+  margin-top: 30%
+}
+
+.buttonBlock{
+  width: 94%;
+  height: 50%;
+  border-radius: 7px;
+  margin-top: 10px;
+  box-shadow: 0em 0em 0.5em rgba(43, 42, 42, 0.3);
+  margin: 10px auto;
+  padding: 4px
+}
+
+.outhor>text{
+  text-align: center;
+  display: block;
+  /* margin-top: 3%; */
+  font-family: fantasy;
+  text-shadow: 0em 0em 0.5em rgba(43, 42, 42, 0.3);
+}
+.outhorWorld1{
+  margin-top: 5%
+}
+.outhorWorld2{
+  font-size: 0.5rem;
+  color: rgb(80, 79, 79)
+}

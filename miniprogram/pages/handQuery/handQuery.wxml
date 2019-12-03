@@ -1,0 +1,136 @@
+<!--pages/handQuery/handQuery.wxml-->
+<view class="allPage">
+  <view class="searchBlock">
+
+
+    <text class="handtTime">录入日期</text>
+    <view class="timeFrame1">
+      <picker mode="date" value="{{date}}" start="2000-09-01" end="2030-09-01" bindchange="bindDateChange">
+        <view class="picker">
+          {{date}}
+        </view>
+      </picker>
+    </view>
+
+    <text class="interval">-</text>
+
+    <view class="timeFrame2">
+      <picker mode="date" value="{{date}}" start="2000-09-01" end="2030-09-01" bindchange="bindDateChange">
+        <view class="picker">
+          {{date}}
+        </view>
+      </picker>
+    </view>
+
+    <text class="searchContent">查询内容</text>
+    <textarea class="textArea" placeholder="请输入报销人、发票号或发票代码查询"></textarea>
+
+  </view>
+
+  <view class="subButton">
+    <button class="submit1" type="submit" style="width:60%;height:20rpx;margin-left:3%;margin-top:2px">搜索</button>
+    <button class="submit2" type="submit" style="width:30%;height:20rpx;margin-left:3%;margin-top:2px" bindtap="onRemove">删除</button>
+  </view>
+  <view class="BlockItem">
+
+    <text class="remind">对查询结果有疑问的请联系我 微信号：zhu980708354</text>
+
+  </view>
+
+<!-- --------------------------------------------------------------------------------------- -->
+
+  <view class="body"  wx:for="{{counters}}"  >
+
+    <view class="header">
+      <text class="headerWorld">增值税电子普通发票</text>
+    </view>
+
+    <view class="pbline"></view>
+
+
+    <view class="listItem">
+      <text class="listName">发票类型</text>
+      <text name="input-bill_code" class="weui-input" value='{{item.bill_code1}}' type="number" placeholder="增值税电子普通发票" bindblur='getTextAreaContent'>{{item.bill_code1}}</text>
+    </view>
+
+    <view class="listItem">
+      <text class="listName">发票代码</text>
+      <text name="input-bill_code" class="weui-input" value='{{item.bill_code2}}' type="number" placeholder="请输入发票代码" bindblur='getTextAreaContent'>{{item.bill_code2}}</text>
+    </view>
+
+    <view class="listItem">
+      <text class="listName">发票号码</text>
+      <text name="input-bill_code" class="weui-input" value='{{item.bill_code3}}' type="number" placeholder="请输入发票号码" bindblur='getTextAreaContent'>{{item.bill_code3}}</text>
+    </view>
+
+
+    <view class="unSee">
+      <view class="listItem">
+        <text class="listName">开票日期</text>
+        <text name="input-bill_code" class="weui-input" value='{{item.bill_code4}}' type="number" placeholder="2019-11-28" bindblur='getTextAreaContent'>{{item.bill_code4}}</text>
+      </view>
+
+      <view class="listItem">
+        <text class="listName">校验码</text>
+        <text name="input-bill_code" class="weui-input" value='{{bill_code5}}' type="number" placeholder="请输入发票校验码" bindblur='getTextAreaContent'>{{item.bill_code5}}</text>
+      </view>
+
+
+
+      <view class="listItem">
+        <text class="listName">发票金额</text>
+        <text name="input-bill_code" class="weui-input" value='{{bill_code6}}' type="number" placeholder="请输入发票金额" bindblur='getTextAreaContent'>{{item.bill_code6}}</text>
+      </view>
+
+
+
+      <view class="listItem">
+        <text class="listName">税率 (%)</text>
+        <text name="input-bill_code" class="weui-input" value='{{bill_code7}}' type="number" placeholder="请输入税率" bindblur='getTextAreaContent'>{{item.bill_code7}}</text>
+      </view>
+
+
+
+      <view class="listItem">
+        <text class="listName">税额</text>
+        <text name="input-bill_code" class="weui-input" value='{{bill_code8}}' type="number" placeholder="请输入税额" bindblur='getTextAreaContent'>{{item.bill_code8}}</text>
+      </view>
+
+
+
+      <view class="listItem">
+        <text class="listName">价税合计</text>
+        <text name="input-bill_code" class="weui-input" value='{{bill_code9}}' type="number" placeholder="请输入价税合计" bindblur='getTextAreaContent'>{{item.bill_code9}}</text>
+      </view>
+
+      <view class="pbline" style="margin-top:10px"></view>
+
+      <view class="listItem">
+        <text class="listName">报销人</text>
+        <text name="input-bill_code" class="weui-input" value='{{bill_code10}}' type="number" placeholder="请输入报销人" bindblur='getTextAreaContent'>{{item.bill_code10}}</text>
+      </view>
+
+      <view class="listItem">
+        <text class="listName">报销部门</text>
+        <text name="input-bill_code" class="weui-input" value='{{bill_code11}}' type="number" placeholder="请输入报销部门" bindblur='getTextAreaContent'>{{item.bill_code11}}</text>
+      </view>
+
+      <view class="listItem">
+        <text class="listName">凭证号</text>
+        <text name="input-bill_code" class="weui-input" value='{{bill_code12}}' type="number" placeholder="请输入凭证号" bindblur='getTextAreaContent'>{{item.bill_code12}}</text>
+      </view>
+
+      <view class="listItem">
+        <text class="listName">销方名称</text>
+        <text name="input-bill_code" class="weui-input" value='{{bill_code13}}' type="number" placeholder="请输入销方名称" bindblur='getTextAreaContent'>{{item.bill_code13}}</text>
+      </view>
+
+      <view class="listItem">
+        <text class="listName">备注</text>
+        <text name="input-bill_code" class="weui-input" value='{{bill_code14}}' type="number" placeholder="请输入备注" bindblur='getTextAreaContent'>{{item.bill_code14}}</text>
+      </view>
+
+    </view>
+  </view>
+
+</view>

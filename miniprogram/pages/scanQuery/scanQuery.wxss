@@ -1,0 +1,149 @@
+/* pages/scanQuery/scanQuery.wxss */
+.allPage{
+    background-color: #d1d3d0;
+    min-height: 45rem;
+}
+.searchBlock{
+  padding: 5%;
+  background-color: #d1d3d0;
+}
+.handtTime{
+  display: inline-block;
+  width: 20%;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.timeFrame1{
+  display: inline-block;
+  margin-left: 2%;
+  border: 1px solid rgb(134, 132, 132);
+  border-radius: 5px;
+  width: 35%;
+  font-size: 0.8rem;
+  text-align: center;
+  line-height: 1.5rem
+}
+.timeFrame2{
+  display: inline-block;
+  margin-left: 2%;
+  border: 1px solid rgb(134, 132, 132);
+  border-radius: 5px;
+  width: 35%;
+  font-size: 0.8rem;
+  text-align: center;
+  line-height: 1.5rem
+}
+.interval{
+  margin-left: 2%
+}
+.searchContent{
+  display: inline-block;
+  width: 20%;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-top: 10%;
+}
+.textArea{
+  display: inline-block;
+  margin-left: 2%;
+  border: 1px solid rgb(134, 132, 132);
+  border-radius: 5px;
+  width: 77%;
+  font-size: 0.8rem;
+  height: 1.5rem;
+  vertical-align: text-top;
+}
+.subButton{
+  /* margin-top: 5%; */
+  width: 100%;
+  height: 45px;
+  border-top: 1px solid rgb(134, 132, 132);
+  background-color: #d1d3d0;
+}
+.submit1{
+  border: 1px solid rgb(134, 132, 132);
+  background-color: rgb(4, 155, 4);
+  color: #fff;
+  display: inline-block;
+  font-weight: 300;
+}
+.submit2{
+  border: 1px solid rgb(134, 132, 132);
+  background-color: rgb(142, 145, 142);
+  display: inline-block;
+  font-weight: 300;
+}
+.remind{
+  text-align: center;
+  margin-top: 5%;
+  font-size: 0.8rem;
+  color: rgb(95, 94, 94)
+}
+.BlockItem{
+  background-color: #d1d3d0;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.headerWorld{
+  display: inline-block;
+  letter-spacing: 0.2em;
+  font-weight: 550;
+  color: red;
+}
+.header{
+  text-align: center;
+  margin-bottom: 10%;
+}
+.listName{
+  display: inline-block;
+  width: 31%;
+  font-size: 0.8rem;
+}
+.listItem{
+  margin-bottom: 2%;
+}
+.pbline{
+  border-top: 2px solid #c0c2bf;
+  margin-top: -15px;
+  margin-bottom: 5%;
+}
+.weui-input{
+  display: inline-block;
+  width: 63%;
+  height: 22px;
+  margin-left: 10px;
+  vertical-align: middle;
+  border-bottom: 1px solid #c0c2bf;
+  font-size: 0.8rem;
+}
+.body{
+  border: 1px solid #c0c2bf;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 0 2em 0.1em #41463c;
+  border-radius: 10px;
+  background-color: #e8efe8;
+  height: 300rpx;
+  margin-top: 4%;
+  transition: height 0.08s ease 0s;
+  overflow: hidden;
+}
+
+.body:hover{
+  height: 300%;
+  overflow: hidden;
+}
+.body>.unSee{
+  display: none;
+}
+.body:hover>.unSee{
+  display: block;
+}

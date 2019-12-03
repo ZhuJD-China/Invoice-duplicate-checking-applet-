@@ -1,0 +1,57 @@
+/* pages/record/record.wxss */
+view{
+  margin: 0;
+  padding: 0px;
+  margin-bottom: 5px;
+}
+.a{
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid #bbccbb;
+  border-radius: 10px;
+  box-shadow: 0 0 2em 0.1em #41463c;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #e8efe8;
+}
+.listone{
+  display: inline-block;
+  width: 100px;
+}
+.listtwo{
+  display: inline-block;
+  width: 160px;
+}
+.listhead{
+  /* height: 30px; */
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: red;
+  letter-spacing: 2px;
+}
+.line{
+  width: 100%;
+  border-bottom: 2px solid #bbccbb;
+  margin-bottom: 15px;
+}
+.count{
+  font-size: 0.4em;
+  position: absolute;
+  top: 50px;
+  left: 80%;
+}
+.listone{
+  letter-spacing: 3px;
+  font-size: 0.9em;
+  margin-right: 10px;
+}
+.listtwo{
+  font-size: 0.9em;
+  border-bottom: 1px solid #bbccbb;
+  vertical-align: middle;
+}
+.textline{
+  margin-top: -9px;
+  margin-left: 30%;
+}

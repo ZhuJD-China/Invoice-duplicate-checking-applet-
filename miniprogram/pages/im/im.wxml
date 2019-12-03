@@ -1,0 +1,15 @@
+<view class="container">
+  <!-- 简介 -->
+  <view class="guide">
+    <text class="headline">ZJD即时通信介绍</text>
+    <text class="p">本 demo 以《聊天室》为例，在此演示数据库《实时数据推送》能力</text>
+     <text class="p">欢迎在聊天室提出相关意见</text>
+
+  </view>
+
+  <view class="uploader">
+    <navigator url="./room/room" open-type="navigate" class="uploader-text">
+      <text>进入聊天室</text>
+    </navigator>
+  </view>
+</view>

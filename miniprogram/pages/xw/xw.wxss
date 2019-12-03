@@ -1,0 +1,11 @@
+/* pages/xw/xw.wxss */
+.banner_image
+{
+  width: 100%;
+  height: 200px;
+}
+.banner
+{
+    width: 100%;
+  height: 250px;
+}

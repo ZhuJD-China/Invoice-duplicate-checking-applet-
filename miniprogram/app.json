@@ -1,0 +1,57 @@
+{
+  "pages": [
+        "pages/mainpage/mainpage",
+      "pages/handQuery/handQuery",
+    "pages/index_invoice/index_invoice",
+    "pages/scanSearch/scanSearch",
+    "pages/index/index",
+    "pages/xw/xw",
+    "pages/my/my",
+    "pages/scanQuery/scanQuery",
+
+    "pages/record/record",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room"
+  ],
+  "window": {
+    "backgroundColor": "#970909",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#bd1c07",
+    "navigationBarTitleText": "发票查重小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/mainpage/mainpage",
+        "text": "主页",
+        "iconPath": "images/yemian.png",
+        "selectedIconPath": "images/yemian.png"
+      },
+      {
+        "pagePath": "pages/xw/xw",
+        "text": "新闻",
+        "iconPath": "images/xw-copy.png",
+      "selectedIconPath": "images/xw-copy.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "个人",
+        "iconPath": "images/tubiaozhizuomoban.png",
+        "selectedIconPath": "images/tubiaozhizuomoban.png"
+      }
+    ]
+  }
+}

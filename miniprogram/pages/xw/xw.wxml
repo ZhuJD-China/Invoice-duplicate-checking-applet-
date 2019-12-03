@@ -1,0 +1,15 @@
+<swiper class="banner" indicator-dots="true" autoplay="true" interval="5000" duration="800">
+  <block wx:for="{{banners}}" wx:key="id">
+         <swiper-item>
+          <image class="banner_image" src="{{item.img}}"/>
+      </swiper-item>
+  </block>
+</swiper>
+
+<view class="audio">
+      <video src="{{src}}"   controls style="width:100%"></video>
+       <view class="btn-area">
+          <button bindtap="bindButtonTap">PHU宣传片</button>
+           <button bindtap="bindButtonTap">制作人：吕珂</button>
+       </view>
+</view>```

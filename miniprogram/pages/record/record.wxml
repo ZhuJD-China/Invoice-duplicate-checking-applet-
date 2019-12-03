@@ -1,0 +1,89 @@
+
+<view class='a' wx:for="{{ne}}"><!--wx:for是微信数据绑定的一种方式，该数组有多少数据就显示多少个view-->
+    <!--index为每个数据对应的下标-->
+    <view class="listhead">增值税电子普通发票</view>
+    <view class="line"></view>
+    <view class="count" style="width:200px;">序号：{{index+1}}</view>
+    <!--item就相当于数组名+下标的结合体，适用于调用数组所有数据-->
+    <!-- <view>number={{item.number}}</view> -->
+    <!-- <view>bill_code={{item.bill_code}}</view>
+    <view>bill_num={{item.bill_num}}</view>
+    <view>bill_amount={{item.bill_amount}}</view>
+    <view>bill_date={{item.bill_date}}</view> -->
+
+    <view class="list">
+    <view class="listone">发票类型</view>
+    <view class="listtwo">{{item.bill_num}}</view>
+    </view>
+
+    <view class="list">
+    <view class="listone">发票代码</view>
+    <view class="listtwo">{{item.bill_amount}}</view>
+    </view>
+
+    <view class="list">
+    <view class="listone">发票号码</view>
+    <view class="listtwo">{{item.bill_date}}</view>
+    </view>
+
+    <view class="list">
+    <view class="listone">开票日期</view>
+    <view class="listtwo">2</view>
+    </view>
+
+    <view class="list">
+    <view class="listone">发票金额</view>
+    <view class="listtwo">2</view>
+    </view>
+
+    <view class="list">
+    <view class="listone">税率（%）</view>
+    <view class="listtwo">2</view>
+    </view>
+
+    <view class="list">
+    <view class="listone">税额</view>
+    <view class="listtwo">2</view>
+    </view>
+
+    <view class="list">
+    <view class="listone">价税合计</view>
+    <view class="listtwo">2</view>
+    </view>
+
+    <view class="list">
+    <view class="listone">检验码</view>
+    <view class="listtwo">2</view>
+    </view>
+
+
+    <view class="line"></view>
+
+
+    <view class="list">
+    <view class="listone">报税人</view>
+    <view class="listtwo">2</view>
+    </view>
+
+    <view class="list">
+    <view class="listone">报销部门</view>
+    <view class="listtwo">2</view>
+    </view>
+
+    <view class="list">
+    <view class="listone">凭证号</view>
+    <view class="listtwo">2</view>
+    </view>
+
+    <view class="list">
+    <view class="listone">销方名称</view>
+    <view class="listtwo">2</view>
+    </view>
+
+
+    <view class="list">
+    <view class="listone">备注</view>
+    <view class="listtwo">2</view>
+    </view>
+    
+</view>

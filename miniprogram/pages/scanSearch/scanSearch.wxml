@@ -1,0 +1,130 @@
+<!--pages/scanSearch/scanSearch.wxml-->
+<!--pages/Testsql/Testsql.wxml-->
+<form class="body" bindsubmit="formSubmit">
+
+  <!-- -------------------------------------------------------------------------------------------------------- -->
+
+<view class="header">
+<image class="seal" src="cloud://lbc-r1n9w.6c62-lbc-r1n9w-1300702763/fapiao/跟单结果印章_wps图片.png"></image>
+<text class="headerWorld">增值税电子普通发票</text>
+</view>
+
+  <view class="pbline"></view>
+<!-- -------------------------------------------------------------------------------------------------------- -->
+
+<view class="listItem">
+ <textarea name="input-bill_code1"   class="listName"  value='{{bill_code1}}'  type="number" placeholder="发票类型" bindblur='getTextAreaContent' ></textarea>
+ <textarea name="input-Value1"  class="weui-input"  value='{{Value1}}'  type="number" placeholder="增值税电子普通发票" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+<view class="listItem">
+ <textarea name="input-bill_code2"   class="listName"  value='{{bill_code2}}'  type="number" placeholder="发票代码" bindblur='getTextAreaContent' ></textarea>
+ <textarea name="input-Value2"  class="weui-input"  value='{{Value2}}'  type="number" placeholder="00256433" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+<view class="listItem">
+ <textarea name="input-bill_code3"   class="listName"  value='{{bill_code3}}'  type="number" placeholder="发票号码" bindblur='getTextAreaContent' ></textarea>
+ <textarea name="input-Value3"  class="weui-input"  value='{{Value3}}'  type="number" placeholder="24232323" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+<view class="listItem">
+ <textarea name="input-bill_code4"   class="listName"  value='{{bill_code4}}'  type="number" placeholder="开票日期" bindblur='getTextAreaContent' ></textarea>
+ <textarea name="input-Value4"  class="weui-input"  value='{{Value4}}'  type="number" placeholder="2019-12-15" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+<view class="listItem">
+ <textarea name="input-bill_code5"   class="listName"  value='{{bill_code5}}'  type="number" placeholder="校验码" bindblur='getTextAreaContent' ></textarea>
+ <textarea name="input-Value5"  class="weui-input"  value='{{Value5}}'  type="number" placeholder="0035" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+<view class="listItem">
+ <textarea name="input-bill_code6"   class="listName"  value='{{bill_code6}}'  type="number" placeholder="发票金额" bindblur='getTextAreaContent' ></textarea>
+ <textarea name="input-Value6"  class="weui-input"  value='{{Value6}}'  type="number" placeholder="$520" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+<view class="listItem">
+ <textarea name="input-bill_code7"   class="listName"  value='{{bill_code7}}'  type="number" placeholder="税率 (%)" bindblur='getTextAreaContent' ></textarea>
+ <textarea name="input-Value7"  class="weui-input"  value='{{Value7}}'  type="number" placeholder="20%" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+<view class="listItem">
+ <textarea name="input-bill_code8"   class="listName"  value='{{bill_code8}}'  type="number" placeholder="备注" bindblur='getTextAreaContent' ></textarea>
+ <textarea name="input-Value8"  class="weui-input"  value='{{Value8}}'  type="number" placeholder="备注" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+<view class="listItem">
+ <textarea name="input-bill_code9"   class="listName"  value='{{bill_code9}}'  type="number" placeholder="备注" bindblur='getTextAreaContent' ></textarea>
+ <textarea name="input-Value9"  class="weui-input"  value='{{Value9}}'  type="number" placeholder="备注" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+<view class="listItem">
+ <textarea name="input-bill_code10"   class="listName"  value='{{bill_code10}}'  type="number" placeholder="备注" bindblur='getTextAreaContent' ></textarea>
+ <textarea name="input-Value10"  class="weui-input"  value='{{Value10}}'  type="number" placeholder="备注" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+<view class="listItem">
+ <textarea name="input-bill_code11"   class="listName"  value='{{bill_code11}}'  type="number" placeholder="备注" bindblur='getTextAreaContent' ></textarea>
+ <textarea name="input-Value11"  class="weui-input"  value='{{Value11}}'  type="number" placeholder="备注" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+<view class="listItem">
+ <textarea name="input-bill_code12"   class="listName"  value='{{bill_code12}}'  type="number" placeholder="备注" bindblur='getTextAreaContent' ></textarea>
+ <textarea name="input-Value12"  class="weui-input"  value='{{Value12}}'  type="number" placeholder="备注" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+
+<view class="listItem">
+ <textarea name="input-bill_code13"   class="listName"  value='{{bill_code13}}'  type="number" placeholder="备注" bindblur='getTextAreaContent' ></textarea>
+ <textarea name="input-Value13"  class="weui-input"  value='{{Value13}}'  type="number" placeholder="备注" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+
+<view class="listItem">
+ <textarea name="input-bill_code14"   class="listName"  value='{{bill_code14}}'  type="number" placeholder="备注" bindblur='getTextAreaContent' ></textarea>
+ <textarea name="input-Value14"  class="weui-input"  value='{{Value14}}'  type="number" placeholder="备注" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+<view class="listItem">
+ <textarea name="input-bill_code15"   class="listName"  value='{{bill_code15}}'  type="number" placeholder="备注" bindblur='getTextAreaContent' ></textarea>
+ <textarea name="input-Value15"  class="weui-input"  value='{{Value15}}'  type="number" placeholder="备注" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+<view class="listItem">
+ <textarea name="input-bill_code16"   class="listName"  value='{{bill_code16}}'  type="number" placeholder="备注" bindblur='getTextAreaContent' ></textarea>
+ <textarea name="input-Value16"  class="weui-input"  value='{{Value16}}'  type="number" placeholder="备注" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+
+<view class="listItem">
+ <textarea name="input-bill_code17"   class="listName"  value='{{bill_code17}}'  type="number" placeholder="备注" bindblur='getTextAreaContent' ></textarea>
+ <textarea name="input-Value17"  class="weui-input"  value='{{Value17}}'  type="number" placeholder="备注" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+
+<view class="listItem">
+ <textarea name="input-bill_code18"   class="listName"  value='{{bill_code18}}'  type="number" placeholder="备注" bindblur='getTextAreaContent' ></textarea>
+ <textarea name="input-Value18"  class="weui-input"  value='{{Value18}}'  type="number" placeholder="备注" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+
+<view class="listItem">
+ <textarea name="input-bill_code19"   class="listName"  value='{{bill_code19}}'  type="number" placeholder="备注" bindblur='getTextAreaContent' ></textarea>
+ <textarea name="input-Value19"  class="weui-input"  value='{{Value19}}'  type="number" placeholder="备注" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+
+<view class="listItem">
+ <textarea name="input-bill_code20"   class="listName"  value='{{bill_code20}}'  type="number" placeholder="备注" bindblur='getTextAreaContent' ></textarea>
+ <textarea name="input-Value20"  class="weui-input"  value='{{Value20}}'  type="number" placeholder="备注" bindblur='getTextAreaContent' ></textarea>
+</view>
+
+
+
+<view class="subButton">
+<button class="submit1" type="submit" bindtap="UploadImage" style="width:60%;height:20px;margin-left:4%;margin-top:2px">扫描</button>
+<button class="submit2" type="submit"  formType='submit' open-type="getUserInfo" style="width:30%;height:20px;margin-left:2.5%;margin-top:2px" bindblur='getTextAreaContent' bindtap="showTestNumber">提交</button>
+
+</view>
+
+</form>
+

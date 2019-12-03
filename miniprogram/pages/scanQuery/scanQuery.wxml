@@ -1,0 +1,157 @@
+<!--pages/scanQuery/scanQuery.wxml-->
+<view class="allPage">
+<view class="searchBlock">
+
+
+<text class="handtTime">录入日期</text>
+<view class="timeFrame1">
+  <picker mode="date" value="{{date}}" start="2000-09-01" end="2030-09-01" bindchange="bindDateChange">
+    <view class="picker">
+    {{date}}
+    </view>
+  </picker>
+</view>
+
+<text class="interval">-</text>
+
+<view class="timeFrame2">
+  <picker mode="date" value="{{date}}" start="2000-09-01" end="2030-09-01" bindchange="bindDateChange">
+    <view class="picker">
+    {{date}}
+    </view>
+  </picker>
+</view>
+
+<text class="searchContent">查询内容</text>
+<textarea class="textArea" placeholder="请输入报销人、发票号或发票代码查询" ></textarea>
+
+</view>
+
+<view class="subButton">
+    <button class="submit1" type="submit" style="width:60%;height:20rpx;margin-left:3%;margin-top:2px">搜索</button>
+    <button class="submit2" type="submit" style="width:30%;height:20rpx;margin-left:3%;margin-top:2px" bindtap="onRemove">删除</button>
+</view>
+<view class="BlockItem">
+
+   <text class="remind">对查询结果有疑问的请联系我 微信号：zhu980708354</text>
+
+</view>
+
+<!-- --------------------------------------------------------------------------------------- -->
+
+<view class="body"  wx:for="{{scan}}" >
+
+<view class="header">
+<text class="headerWorld">增值税电子普通发票</text>
+</view>
+
+<view class="pbline"></view>
+
+
+<view class="listItem">
+<text class="listName">{{item.bill_code1}}</text>
+<text class="weui-input">{{item.Value1}}</text>
+</view>
+
+<view class="listItem">
+<text class="listName">{{item.bill_code2}}</text>
+<text class="weui-input">{{item.Value2}}</text>
+</view>
+
+<view class="listItem">
+<text class="listName">{{item.bill_code3}}</text>
+<text class="weui-input">{{item.Value3}}</text>
+</view>
+
+<view class="listItem">
+<text class="listName">{{item.bill_code4}}</text>
+<text class="weui-input">{{item.Value4}}</text>
+</view>
+
+<view class="listItem">
+<text class="listName">{{item.bill_code5}}</text>
+<text class="weui-input">{{item.Value5}}</text>
+</view>
+
+<view class="listItem">
+<text class="listName">{{item.bill_code6}}</text>
+<text class="weui-input">{{item.Value6}}</text>
+</view>
+
+<view class="listItem">
+<text class="listName">{{item.bill_code7}}</text>
+<text class="weui-input">{{item.Value7}}</text>
+</view>
+
+<view class="listItem">
+<text class="listName">{{item.bill_code8}}</text>
+<text class="weui-input">{{item.Value8}}</text>
+</view>
+
+<view class="listItem">
+<text class="listName">{{item.bill_code9}}</text>
+<text class="weui-input">{{item.Value9}}</text>
+</view>
+
+<view class="listItem">
+<text class="listName">{{item.bill_code10}}</text>
+<text class="weui-input">{{item.Value10}}</text>
+</view>
+
+<view class="listItem">
+<text class="listName">{{item.bill_code11}}</text>
+<text class="weui-input">{{item.Value11}}</text>
+</view>
+
+<view class="listItem">
+<text class="listName">{{item.bill_code12}}</text>
+<text class="weui-input">{{item.Value12}}</text>
+</view>
+
+<view class="listItem">
+<text class="listName">{{item.bill_code13}}</text>
+<text class="weui-input">{{item.Value13}}</text>
+</view>
+
+<view class="listItem">
+<text class="listName">{{item.bill_code14}}</text>
+<text class="weui-input">{{item.Value14}}</text>
+</view>
+
+<view class="listItem">
+<text class="listName">{{item.bill_code15}}</text>
+<text class="weui-input">{{item.Value15}}</text>
+</view>
+
+<view class="listItem">
+<text class="listName">{{item.bill_code16}}</text>
+<text class="weui-input">{{item.Value16}}</text>
+</view>
+
+
+<view class="listItem">
+<text class="listName">{{item.bill_code17}}</text>
+<text class="weui-input">{{item.Value17}}</text>
+</view>
+
+
+<view class="listItem">
+<text class="listName">{{item.bill_code18}}</text>
+<text class="weui-input">{{item.Value18}}</text>
+</view>
+
+
+<view class="listItem">
+<text class="listName">{{item.bill_code19}}</text>
+<text class="weui-input">{{item.Value19}}</text>
+</view>
+
+
+<view class="listItem">
+<text class="listName">{{item.bill_code20}}</text>
+<text class="weui-input">{{item.Value20}}</text>
+</view>
+
+
+</view>
+</view>
